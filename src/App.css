@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 100px;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+.contract {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.contract h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contract label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contract input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contract .button {
+  background-color: #0eba1c;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contract .button:hover {
+  background-color: #0fc76b;
+}
+
+.existing-contracts h1 {
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.existing-contracts .complete {
+  color: green;
+}
+
+.existing-contracts .escrow {
+  border: 1px solid #a93131;
+  border-radius: 4px;
+  padding: 200px;
+  margin-bottom: 10px;
+}
+
+.existing-contract {
+  border: 1px solid #ac9b9b;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0px;
+}
+
+.fields {
+  list-style: none;
+}
+
+.fields li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.fields li > div:first-child {
+  font-weight: bold;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+.button {
+  background-color: #06a104;
+  color: #fff;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  size: 100px;
+
+  
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
